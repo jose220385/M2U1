@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="estiloformulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="">
+        <h3>Formulario de contacto</h3>
+        <div id="ingreso">
+            <input class="campos" type="text" name="nombre" placeholder="Nombre"/>
+            <input class="campos" type="text" name="apellido" placeholder="Apellido"/>
+            <input class="campos" type="text" name="mail" placeholder="Ingrese e-mail"/>
+            <input class="campos" type="text" name="tel" placeholder="Telefono :cod area + num"/>
+        </div>
+        <p id="solicita">
+            <label for="Solicito"> ¿Solicita respuesta inmediata? </label>
+            <label for="Si"> Si </label>
+            <input type="checkbox" name="respuesta¨[]" value="Si" id="Si">
+            <label for="No"> No </label>
+            <input type="checkbox" name="respuesta¨[]" value="No" id="No">
+        </p>
+        <p>
+            <label for="Motivo"> Motivo de la solicitud: </label>
+        </p>
+        <p>   
+            <textarea name="motivo" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input class="boton"  type="submit" value="Enviar">
+            <input class="boton"  type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+</html>
